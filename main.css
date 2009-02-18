@@ -1,0 +1,84 @@
+/**
+ * main.css
+ * whyismytvnotworking.com
+ * Feb 2009
+ */
+
+/* Content Blocks */
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#e5ecf3;
+	font-family:verdana;
+	font-size:15px;
+}
+div.banner {
+	position:relative;
+	height:60px;
+	background-color:#3b5998;
+	background-image:url(./images/logo.png);
+	background-repeat:no-repeat;
+}
+div.content-box {
+	margin-left:auto;
+	margin-right:auto;
+	width:850px;
+	background-image:url(./images/strip.png);
+	background-repeat:repeat-y;
+}
+div.content {
+	padding-left:25px;
+	padding-right:25px;
+}
+div.main {
+	padding-left:25px;
+	padding-right:25px;
+	min-height:300px;
+}
+div.email {
+	width:600px;	
+	border:1px solid #3b5998;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	background-color:#dedeff;
+	padding:20px;
+	margin-bottom:15px;
+}
+div.section {
+	padding-left:40px;
+}
+div.col1 {
+	float:right;
+	padding-left:30px;
+}
+div.footer {
+	height:100px;
+	color:#444444;
+	padding-top:50px;
+	text-align:center;
+	font-size:11px;
+}
+div.solution {
+	color:#333333;
+	padding-bottom:20px;
+}
+/* Content Elements */
+h1 {
+	padding-top:10px;
+	font-family:Georgia, Serif;
+	font-size:1.4em;
+	border-bottom:5px solid #999999;
+	width:400px;
+	margin-left:-20px;
+}
+div.clear {
+	clear:both;
+}
+div.subtitle {
+	font-size:0.9em;
+	color:#aa0000;
+	font-weight:bold;
+}
+div.solution-title {
+	font-weight:bold;
+}
